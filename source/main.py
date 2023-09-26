@@ -1,8 +1,5 @@
-def get_greeting_message(name: str) -> str:
-    return f"Hello, {name}!"
-
+from utils.functions import get_greeting_message
 
 if __name__ == "__main__":
-    m =  get_greeting_message("John Doe")
-    print(m)
+    print(get_greeting_message("John Doe"))
 
