@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "command-development"
+version = "0.1.0"
+description = "No description"
+authors = ["Your Name <you@example.com>"]
+license = "BSD"
+readme = "README.md"
+# packages = [{include = "command_development"}]
+
+[tool.poetry.dependencies]
+python = "3.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
